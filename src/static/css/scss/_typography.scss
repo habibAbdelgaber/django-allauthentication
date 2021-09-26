@@ -1,0 +1,187 @@
+%heading{
+    font-family: $secondary-font-family;
+    font-weight: 400;
+}
+
+// .heading-1{
+//     @extend: %heading;
+// }
+// .heading-2{
+//     @extend: %heading;
+// }
+// .heading-3{
+//     @extend: %heading;
+// }
+// .heading-4{
+//     @extend: %heading;
+// }
+// .heading-5{
+//     @extend: %heading;
+// }
+// .heading-6{
+//     @extend: %heading;
+// }
+
+// Container
+.container{
+    width: 90%;
+    margin: 0 auto;
+}
+// alert messages
+.primary{
+    background-color: $primary-bg-color;
+    color: $primary-bg-color;
+    border: $primary-bg-color;
+}
+
+.success{
+    background-color: $success-bg-color;
+    color: $success-bg-color;
+    border: $success-bg-color;
+}
+
+.info{
+    background-color: $info-bg-color;
+    color: $info-bg-color;
+    border: $info-bg-color;
+}
+
+.warning{
+    background-color: $warning-bg-color;
+    color: $warning-bg-color;
+    border: $warning-bg-color;
+}
+
+.dark{
+    background-color: $dark-bg-color;
+    color: $dark-bg-color;
+    border: $dark-bg-color;
+}
+
+.debug{
+    background-color: $default-bg-color;
+    color: $default-bg-color;
+    border: $default-bg-color;
+}
+.danger{
+    background-color: $error-bg-color;
+    color: $error-bg-color;
+    border: $error-bg-color;
+}
+
+// background-colors
+.bg-default{
+    background-color: $default-bg-color;
+    color: $default-bg-color;
+    border: $default-bg-color;
+}
+.bg-primary{
+    background-color: $primary-bg-color;
+    color: $primary-bg-color;
+    border: $primary-bg-color;
+}
+
+.bg-success{
+    background-color: $success-bg-color;
+    color: $success-bg-color;
+    border: $success-bg-color;
+}
+
+.bg-info{
+    background-color: $info-bg-color;
+    color: $info-bg-color;
+    border: $info-bg-color;
+}
+
+.bg-warning{
+    background-color: $warning-bg-color;
+    color: $warning-bg-color;
+    border: $warning-bg-color;
+}
+
+.bg-dark{
+    background-color: $dark-bg-color;
+    color: $dark-bg-color;
+    border: $dark-bg-color;
+}
+
+.bg-danger{
+    background-color: $error-bg-color;
+    color: $error-bg-color;
+    border: $error-bg-color;
+}
+// buttons colors
+.btn-default{
+    background-color: $default-bg-color;
+    color: $default-bg-color;
+    border: $default-bg-color;
+}
+.btn-primary{
+    background-color: $primary-bg-color;
+    color: $primary-bg-color;
+    border: $primary-bg-color;
+}
+
+.btn-success{
+    background-color: $success-bg-color;
+    color: $success-bg-color;
+    border: $success-bg-color;
+}
+
+.btn-info{
+    background-color: $info-bg-color;
+    color: $info-bg-color;
+    border: $info-bg-color;
+}
+
+.btn-warning{
+    background-color: $warning-bg-color;
+    color: $warning-bg-color;
+    border: $warning-bg-color;
+}
+
+.btn-dark{
+    background-color: $dark-bg-color;
+    color: $dark-bg-color;
+    border: $dark-bg-color;
+}
+
+.btn-danger{
+    background-color: $error-bg-color;
+    color: $error-bg-color;
+    border: $error-bg-color;
+}
+
+// text colors
+.text-white{
+    color: $default-bg-color;
+}
+.text-primary{
+    color: $primary-bg-color;
+}
+
+.text-success{
+    color: $success-bg-color;
+}
+
+.text-info{
+    color: $info-bg-color;
+}
+
+.text-warning{
+    color: $warning-bg-color;
+}
+
+.text-dark{
+    color: $dark-bg-color;
+}
+
+.text-danger{
+    color: $error-bg-color;
+}
+.cta-btn{
+    background-color: $dark-bg-color;
+    color: $default-bg-color;
+    padding: 1rem 2rem;
+    
+}

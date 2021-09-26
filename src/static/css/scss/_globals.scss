@@ -1,0 +1,26 @@
+*, *::after, *::before{
+    margin: 0;
+    padding: 0;
+    border: 0;
+    border-radius: 0;
+}
+
+html{
+    scroll-behavior: smooth;
+    font-size: 62.5%; // 100 / 16 px * 10 == 62.5%;
+}
+
+body{
+    background-color: #eee;
+    font-family: $secondary-font-family;
+    line-height: 1.6;
+}
+
+a{
+    text-decoration: none;
+}
+
+
+ul li, ol, li{
+    list-style-type: none;
+}
